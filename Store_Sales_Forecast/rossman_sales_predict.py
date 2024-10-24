@@ -21,8 +21,8 @@ pd.set_option('display.width', 500)
 pd.set_option('display.max_rows', 20)
 
 ################ DATASET YÜKLEME #########
-filepath_train = r"/Users/mustafaemircan/PycharmProjects/Miuul_Group_Project/DATASETS/train.csv";
-filepath_store = r"/Users/mustafaemircan/PycharmProjects/Miuul_Group_Project/DATASETS/store.csv";
+filepath_train = r"/Users/Semih/PycharmProjects/MiuulBootcamp/datasets/train.csv";
+filepath_store = r"/Users/Semih/PycharmProjects/MiuulBootcamp/datasets/store.csv";
 
 store = pd.read_csv(filepath_store)
 train = pd.read_csv(filepath_train)
